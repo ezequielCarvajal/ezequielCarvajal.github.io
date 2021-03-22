@@ -83,8 +83,11 @@ nav {
 }
 .profile-link a {
     font-size: medium;
-    z-index: -1;
 }
+.blog-link {
+z-index: -1;
+}
+
 .home-hero {
  height: 65vh;
   display: flex;
