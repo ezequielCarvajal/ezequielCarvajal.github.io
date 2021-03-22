@@ -11,11 +11,10 @@
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-	/* box-shadow: 2px 2px 3px #999; */
-  z-index:100;
+  z-index: 1;
 }
 .float:hover {
-  transform: scale(.9);
+  transform: scale(1.1);
 }
 
 .my-float{
@@ -23,4 +22,39 @@
 }
 .fa-whatsapp {
     background-color: #25d366;
+}
+/* Boton flotante de telegram */
+.telegram-item {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom:40px;
+	right:40px;
+	cursor: pointer;
+	z-index: 1;
+	animation: telegram 5s infinite;
+}
+.telegram-item:hover {
+	transform: scale(1.1);
+}
+.telegram-item img {
+	width: inherit;
+}
+
+@keyframes telegram {
+	0% {
+	   z-index: 1;
+	}
+	45%{
+		z-index: 1;
+	}
+	50% {
+        z-index: -2;
+	}
+	95%{
+		z-index: -1;
+	}
+	100% {
+	z-index: 1;
+	}
 }
