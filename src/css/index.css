@@ -83,6 +83,7 @@ nav {
 }
 .profile-link a {
     font-size: medium;
+    z-index: -1;
 }
 .home-hero {
  height: 65vh;
@@ -151,7 +152,7 @@ a span {
     box-shadow: 0px 1px 3px 0px #eee;
     padding: 1rem;
     cursor: pointer;
-  z-index: 2;
+  /* z-index: 2; */
 
 }
 .me-section-container{
