@@ -58,8 +58,9 @@ nav {
     position: relative;
 }
 .nav-logo-container img{
-    width: 7rem;
+    width: 6rem;
     position: absolute;
+    top: -7vh;
 }
 .me-logo {
     transform:scale(1.2);
