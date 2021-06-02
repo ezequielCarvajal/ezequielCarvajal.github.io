@@ -215,7 +215,8 @@ z-index: 2;
  height: 160px;
  background-image: url('/assets/frontendTegnologias.png');
  background-size: 420px 160px;
- animation: logos 4s infinite alternate;
+ animation: logos 5s infinite;
+ animation-timing-function: steps(3);
 }
 .item:nth-child(4) {
  grid-column: 3/4;
@@ -230,12 +231,9 @@ z-index: 2;
 opacity: .2;
 background-position: 0 0;
 }
-50%{
-opacity: .4;
-}
 100%{
-opacity: .2;
-background-position: right;
+opacity: .7;
+background-position: 150% 0;
 }
 }
 
