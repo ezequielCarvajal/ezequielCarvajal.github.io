@@ -192,6 +192,13 @@ a span {
     grid-template-rows: repeat(5, 1fr);
     
  }
+ .inMarketing{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .inMarketing div{
+     margin: 1rem;
+ }
  .item {
 width: 100%;
 min-width: 110px;
@@ -239,6 +246,7 @@ background-position: 150% 0;
 
 .footer {
     margin-top: 1rem;
+    padding-right: 2rem;
     width: 100%;
     height: 7.5vh;
     background: linear-gradient(to top, #072340, #000);
