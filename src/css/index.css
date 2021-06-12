@@ -260,8 +260,9 @@ background-position: 150% 0;
     align-items: center;
     justify-content: space-between
 }
-.footer a {
+.footer a, .footer span{
     z-index: 1;
+    font-size: 1rem;
 }
 
 @media (min-width: 400px){
