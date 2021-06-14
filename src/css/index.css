@@ -320,5 +320,9 @@ max-width: 950px;
     .item:nth-child(3) {
         margin-left: 3.5rem;
     }
+    .me-hero-photo{
+    width: 15%;
+    height: 23vh;
+}
 
 }
