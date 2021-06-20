@@ -1,0 +1,75 @@
+
+/* Boton flotante de telegram */
+.telegram-item {
+	position: fixed;
+	width: 62px;
+	height: 62px;
+	bottom:40px;
+	right:40px;
+	cursor: pointer;
+	z-index: 1;
+	animation: telegram 6s infinite ;
+}
+.telegram-item:hover, .email-item:hover {
+	opacity: 1.2;
+}
+.telegram-item img {
+	width: inherit;
+}
+
+@keyframes telegram {
+	0% {
+	   z-index: -1;
+	   transform: scale(.5)
+	}
+	47%{
+		z-index: -1;
+		transform: scale(.9)
+	}
+	50% {
+        z-index: 1;
+	 transform: scale(1);
+	}
+	97%{
+		z-index: 1;
+		transform: scale(.9);
+	}
+	100% {
+	z-index: -1;
+	transform: scale(.7)
+	}
+}
+/* Boton flotante de email */
+ .email-item {
+	position: fixed;
+	width: 57px;
+	height: 57px;
+	bottom:48px;
+	right: 46px;
+	cursor: pointer;
+	z-index: 1;
+	animation: mail 6s infinite;
+}
+@keyframes mail {
+	0% {
+		z-index: 1;
+	transform: scale(1);
+	}
+	47%{
+		z-index: 1;
+	transform: scale(.9);
+	}
+	50% {
+        z-index: -1;
+		transform: scale(.5)
+	}
+	97%{
+		z-index: -1;
+		transform: scale(.7);
+	}
+	100% {
+	 z-index: 1;
+	 transform: scale(.9)
+	 
+	}
+}
