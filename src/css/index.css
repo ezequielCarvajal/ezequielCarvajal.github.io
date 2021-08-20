@@ -154,8 +154,6 @@ a span {
     box-shadow: 0px 1px 3px 0px #eee;
     padding: 1rem;
     cursor: pointer;
-  /* z-index: 2; */
-
 }
 .me-section-container{
     background-color: #044b9478;
@@ -198,13 +196,8 @@ main .inMarketing img{
     display: block;
   margin: 1rem auto;
 }
-.jdeCompany {
-    cursor: pointer;
-    z-index:2;
-    margin-right: 5rem;
-}
-.me-section-container__jdeCompany-title {
-    text-align: center;
+.jdeCompany-title{
+    margin-left: 10rem;
 }
 iframe {
     width: 320px;
