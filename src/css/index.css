@@ -183,6 +183,10 @@ a span {
 .hero-me{
     width: 65%;
 }
+.me-sections {
+    background-color: #072340;
+    padding: 0.5rem;
+}
 main .inMarketing {
     display: block;
     height: max-content;
@@ -193,6 +197,20 @@ main .inMarketing {
 main .inMarketing img{
     display: block;
   margin: 1rem auto;
+}
+.jdeCompany {
+    cursor: pointer;
+    z-index:2;
+    margin-right: 5rem;
+}
+.me-section-container__jdeCompany-title {
+    text-align: center;
+}
+iframe {
+    width: 320px;
+    height: 200px;
+    z-index: 2;
+    opacity: 0.7;
 }
 .proyects-container{
     width: 100%;
