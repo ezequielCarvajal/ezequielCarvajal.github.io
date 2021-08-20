@@ -198,6 +198,7 @@ main .inMarketing img{
 }
 .jdeCompany a{
     margin-top: 100px;
+    z-index: 2;
 }
 .jdeCompany {
     margin-bottom: 2rem;
